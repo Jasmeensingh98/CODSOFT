@@ -11,10 +11,10 @@
     --primary-color: #fff;
     --primary-shade: #f7f5f2;
     --seconday-color: #000;
-    --secondary-shade: #4b4c4c;
+    --secondary-shade: #dfb04b;
     --red-color: #d40700;
     --red-shade: #b20600;
-    --accent-color: #ffee63;
+    --accent-color: #ffffff;
 }
 
 ul li{
@@ -28,9 +28,9 @@ a{
 /* header section  */
 
 header{
-    background: rgb(2, 0, 36);
-    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(50, 50, 51, 1) 35%, rgba(0, 212, 255, 1) 100%);
-    background: linear-gradient(to right, #040404, #242424, #656565);
+    background: rgb(75, 39, 142);
+    background: linear-gradient(90deg, rgb(67, 61, 187) 0%, rgb(56, 56, 147) 35%, rgba(0, 212, 255, 1) 100%);
+    background: linear-gradient(to right, #040404, #1254c7, #768ef1);
     color: var(--primary-color);
 }
 
@@ -145,7 +145,7 @@ h4, p{
 }
 
 .about-content span{
-    color: #C6DCE4;
+    color: #a01e52;
 }
 
 .dot{
@@ -302,7 +302,7 @@ h4, p{
 /* contact us  */
 
 .contact-us-sec{
-    background-color: darkgray;
+    background-color: rgb(10, 85, 12);
     height: 50vh;
     padding: 35px 0;
 }
@@ -351,7 +351,7 @@ footer{
 }
 
 
-/* @media (max-width:768px){
+ @media (max-width:768px){
 
     .nav-bar{
         flex-direction: column;
@@ -395,4 +395,4 @@ footer{
 
 
     
-} */
+} 
